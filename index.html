@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Product Showcase Website</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-        <div class="logo-container">
-          <img src="img/logo.jpg" alt="Your logo" class="logo">
-          <h1 class="company-name">AGARAM SS FABRICATORS</h1>
-        </div>
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <h2>Welcome to Agaram SS Fabricators</h2>
-      <p>Explore our latest products and find what you need.</p>
-      <a href="#" class="btn-primary">Get Started</a>
-    </section>
-    <section id="products">
-      <h2>Our Products</h2>
-      <article class="product">
-        <h3>Staircase </h3>
-        <img src="img/staircase.jpg" alt="Product 1"> 
-        <p>Sleek and modern, our stainless steel staircase is the perfect addition to any contemporary home or office.
-            Crafted with precision and designed to impress, our stainless steel staircase combines functionality with style for a stunning visual impact.</p>
-        <a href="#" class="btn-secondary">Learn More</a>
-      </article>
-      <article class="product">
-        <h3>Tables</h3>
-        <img src="img/table.jpg" alt="Product 2">    
-        <p>Durable and hygienic, our stainless steel table is the ideal work surface for any commercial or industrial setting.</p>
-        <a href="#" class="btn-secondary">Learn More</a>
-      </article>
-      <article class="product">
-        <h3>SS Gates</h3>
-        <img src="img/product-3.jpg" alt="Product 3"> 
-        <p>Our stainless steel gates offer unparalleled strength and security, while also adding a touch of elegance to your property.
-            Crafted with precision and built to last, our stainless steel gates are a stylish and reliable solution for safeguarding your home or business.</p>
-        <a href="#" class="btn-secondary">Learn More</a>
-      </article>
-    </section>
-    <section id="about-us">
-      <h2>About Us</h2>
-      <p>At <b>Agaram</b>, we specialize in crafting high-quality stainless steel products that are both functional and visually stunning. Our team of skilled craftsmen and designers is committed to excellence, using only the finest materials and cutting-edge technology to create products that meet the highest standards of quality and durability. Whether you need custom-made gates, railings, staircases, or other products, we work closely with you to ensure that your vision becomes a reality. With a focus on innovation and customer satisfaction, we are dedicated to providing exceptional products and services that exceed expectations.
-
-
-
-
-      </p>
-    </section>
-    <section id="contact-us">
-      <h2>Contact Us</h2>
-    </section>
-    </main>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agaram - Stainless Steel Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-   
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <div id="logo">
+          <img src="img/logo.jpg" alt="Agaram logo">
+          <h1>Agaram</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+      <div class="container">
+        <h2>Welcome to Agaram</h2>
+        <p>We specialize in the manufacturing and distribution of high-quality stainless steel products. Our products are designed to meet the needs of various industries, including food processing, pharmaceuticals, and construction. We take pride in our commitment to excellence, and we strive to deliver the best products and services to our customers.</p>
+        <a href="#products" class="button">View Products</a>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+      
+        <div class="product">
+          <img src="img/staircase.jpg" alt="Stainless Steel Stairs">
+          <div class="product-description">
+            <h3>Stainless Steel Stairs</h3>
+            <p>Our stainless steel stairs are sleek and modern, providing both durability and aesthetic appeal. Made with high-quality materials, these stairs are perfect for both indoor and outdoor use.</p>
+          </div>
+        </div>
+      
+        <div class="product">
+          <img src="img/table.jpg" alt="Tables and Chairs">
+          <div class="product-description">
+            <h3>Tables and Chairs</h3>
+            <p>Our tables and chairs are the perfect addition to any space. Whether you're looking for a set for your dining room or outdoor patio, we offer a variety of options to suit your style and needs. Made with sturdy materials, our tables and chairs are built to last.</p>
+          </div>
+        </div>
+      
+        <div class="product">
+          <img src="img/product-3.jpg" alt="Stainless Steel Gates">
+          <div class="product-description">
+            <h3>Stainless Steel Gates</h3>
+            <p>Our stainless steel gates offer both security and style. Made with top-of-the-line materials, these gates are perfect for protecting your property while adding a touch of elegance to your space.</p>
+          </div>
+        </div>
+      
+      </section>
+      
+
+    <!-- About Us Section -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <div class="content">
+          <p>We are a company that specializes in providing high-quality stainless steel products. With years of experience in the industry, we are committed to delivering top-notch products and services to our customers. From stainless steel stairs to tables and chairs, we have everything you need to enhance the look and feel of your space.</p>
+        </div>
+      </section>
+      
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <div class="content">
+          <p>To get in touch with us, please email us at <a href="mailto:info@companyname.com">info@companyname.com</a> or call us at <a href="tel:+15551234567">+1-555-123-4567</a>. We look forward to hearing from you!</p>
+        </div>
+      </section>
+      
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Agaram. All rights reserved.</p>
+      </div>
+    </footer>
+    
