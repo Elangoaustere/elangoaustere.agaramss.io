@@ -392,7 +392,42 @@
         width: calc(33.33% - 40px);
         }
         }
-        
+        /* mobile issue fix */
+        @media only screen and (max-width: 600px) {
+            /* Header */
+            #header {
+              height: auto;
+              position: static;
+            }
+          
+            #header nav {
+              display:contents;
+            }
+          
+            #header h1 {
+              font-size: 2em;
+              text-align: center;
+              margin: 20px 0;
+            }
+          
+            /* Welcome */
+            #welcome {
+              position: relative;
+              z-index: 1;
+               /* increase margin-top value to move the section down */
+            }
+          
+            #welcome h2 {
+              font-size: 1.5em;
+              margin-bottom: 20px;
+            }
+          
+            #welcome p {
+              font-size: 1.1em;
+              line-height: 1.5;
+            }
+          }
+          
         
         
         
